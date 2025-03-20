@@ -1,0 +1,83 @@
+Background{
+    -fx-background-color: linear-gradient(to bottom, #3a3a3a, #1a1a1a);
+}
+Label {
+    -fx-font-family: 'Segoe UI', sans-serif;
+    -fx-font-size: 14px;
+}
+.GridPane{
+    -fx-padding: 20;
+}
+.hbox, .vbox {
+    -fx-spacing: 15; /* Increased spacing between elements */
+    -fx-padding: 20; /* Uniform padding around containers */
+}
+#Unlitbutton{
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 10 20 10 20;
+}
+#Litbutton{
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #000000;
+    -fx-padding: 10 20 10 20;
+    -fx-background-color: #dcdc7c;
+}
+
+#PuzzleIndex{
+    -fx-padding: 5 5 5 5;
+}
+#ClueText{
+    -fx-spacing: 5;
+    -fx-padding: 0 0 0 12;
+}
+#LLbutton{
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-border-color: #000000;
+    -fx-padding: 10 10 10 10;
+    -fx-background-color: #dcdc7c;
+}
+#ILbutton{
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 5 5 5 5;
+    -fx-border-color: #000000;
+    -fx-background-color: #dcdc7c;
+}
+.rectangle{
+    -fx-spacing: 10;
+    -fx-padding: 10 20 10 20;
+}
+#win{
+    -fx-padding: 20 20 0 20;
+    -fx-font-size: 24px;
+    -fx-text-fill: #44bc44;
+}
+#prev{
+    -fx-padding: 30 50 30 50;
+}
+#next{
+    -fx-padding: 30 50 30 50;
+}
+#rand{
+    -fx-padding: 30 50 30 50;
+}
+#reset{
+    -fx-padding: 30 50 30 50;
+}
+Button {
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 5, 0.2, 2, 2);
+}
+
+#prev:hover,
+#next:hover,
+#rand:hover,
+#reset:hover {
+    -fx-background-color: #f0f0f0; /* Light grey background on hover */
+    -fx-border-color: #dcdc7c; /* Highlight border color */
+    -fx-cursor: hand; /* Change cursor to hand */
+}
